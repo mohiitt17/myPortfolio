@@ -1,5 +1,5 @@
 import React from 'react'
-import spotify from "../assets/spotify-icon.png"
+import fileManager from "../assets/file-logo.png"
 import snap from "../assets/snap-icon.png"
 import telegram from "../assets/telegram-icons.png"
 
@@ -18,8 +18,8 @@ const Project = () => {
        
       </div>
       <div className="pj-btn">
-      <button type="button" class="btn btn-light " style={{border: "1px solid black"}}>Git hub</button>
-      <button type="button" class="btn btn-dark ">Live demo</button>
+      <button type="button" class="btn btn-light " style={{border: "1px solid black"}} onClick={() => window.open("https://github.com/mohiitt17/snapchat-clone.git")}>Git hub</button>
+      <button type="button" class="btn btn-dark " onClick={() => window.open("https://snapchat-clone-chi.vercel.app/")}>Live demo</button>
       </div>
     </div>
   </div>
@@ -31,20 +31,23 @@ const Project = () => {
         
       </div>
       <div className="pj-btn">
-      <button type="button" class="btn btn-light " style={{border: "1px solid black"}}>Git hub</button>
-      <button type="button" class="btn btn-dark ">Live demo</button>
+        
+      <button type="button" class="btn btn-light " style={{border: "1px solid black"}} onClick={() => window.open("https://github.com/mohiitt17/Telegram-Clone.git")}>Git hub</button>
+    
+    
+      <button type="button" class="btn btn-dark "onClick={() => window.open("https://telegramclone-mohitt.vercel.app/")} >Live demo</button>
+    
       </div>
     </div>
   </div>
   <div class="col" style={{width :"350px", marginTop :"-120px"}}>
     <div class="card h-100" style={ { borderRadius :"30px", border :"3px solid grey"}}>
-      <img src={spotify} class="card-img-top" alt="..."/>
+      <img src={fileManager} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h3 class="card-title"> Spotify Clone</h3>
+        <h3 class="card-title">Mini Projects</h3>
       </div>
       <div className="pj-btn">
-      <button type="button" class="btn btn-light " style={{border: "1px solid black"}}>Git hub</button>
-      <button type="button" class="btn btn-dark ">Live demo</button>
+      <button type="button" class="btn btn-light " style={{border: "1px solid black"}} onClick={() => window.open("https://github.com/mohiitt17/miniProjects.git")}>Git hub</button>
       </div>
     </div>
   </div>
