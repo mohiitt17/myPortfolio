@@ -5,7 +5,9 @@ import telegram from "../assets/telegram-icons.png"
 
 
 const Project = () => {
-  return <div class="row row-cols-1 row-cols-md-3 g-4 text-center" id='project'>
+  return <div class="row row-cols-1 row-cols-md-3 g-4 text-center" id='project'
+
+>
    <div className="head-content" style={{ width :"100vw", marginTop :"-20px"}}>
    <p style={{color :"gray" , fontWeight :"600", fontSize :"20px"}}>Browse my recent</p>
    <h1 style={{fontSize :"55px"}}>Projects</h1>
@@ -15,7 +17,6 @@ const Project = () => {
       <img src={snap} class="card-img-top" alt="..."/>
       <div class="card-body">
         <h3 class="card-title">Snapchat Clone</h3>
-       
       </div>
       <div className="pj-btn">
       <button type="button" class="btn btn-light " style={{border: "1px solid black"}} onClick={() => window.open("https://github.com/mohiitt17/snapchat-clone.git")}>Git hub</button>

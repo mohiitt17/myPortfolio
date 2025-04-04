@@ -3,9 +3,12 @@ import profilerImg from "../assets/Snapchat-6.png"
 import { PiMedalFill } from "react-icons/pi";
 import { FaUserFriends } from "react-icons/fa";
 
+
+
 const AboutMe = () => {
     return (
-        <div className="container" id='aboutme'>
+
+        <div className="container" id='aboutme' >
             <div className="head-content" style={{width :"100%", lineHeight :"0px"}}>
             <p style={{color :"gray" , fontWeight :"600", fontSize :"20px"}}> Get to know more</p>
             <h1 style={{fontSize :"50px"}}>About me</h1>

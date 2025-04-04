@@ -3,7 +3,9 @@ import { MdVerified } from "react-icons/md";
 
 const Experience = () => {
   return (
-    <div className='container' id='exp'>
+    <div className='container' id='exp'  
+          
+>
         <div className="head-content" style={{width :"100%", marginTop :"-40px", lineHeight :"10px"}}>
         <p style={{color :"gray" , fontWeight :"600", fontSize :"20px"}}>Explore my</p>
         <h1 style={{fontSize :"50px"}}>Experience</h1>

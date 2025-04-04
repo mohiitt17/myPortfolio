@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaLinkedin } from 'react-icons/fa';
 import { MdOutlineMailOutline } from "react-icons/md";
+import { Link } from 'react-scroll';
 
 const Contact = () => {
     return (
@@ -19,19 +20,36 @@ const Contact = () => {
                <div className="linkedin">
                 
                <FaLinkedin />
-                <p>Linkedin</p>
+                <p onClick={() => window.location.href = "https://www.linkedin.com/in/mohit-kumar-3a241935a/"}>Linkedin</p>
                </div>
             </div>
             <div class="container">
-  <footer class="py-3 my-4" id='footer'>
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Experience</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Project</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
-    </ul>
-    <p class="text-center text-body-secondary"> Copyright© 2024 Mohit , All right reserved</p>
-  </footer>
+            <footer className="py-3 my-4" id='footer'>
+  <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+    <li className="nav-item">
+      <Link className="nav-link px-2 text-body-secondary" to="about" smooth={true} duration={500}>
+        About
+      </Link>
+    </li>
+    <li className="nav-item">
+      <Link className="nav-link px-2 text-body-secondary" to="experience" smooth={true} duration={500}>
+        Experience
+      </Link>
+    </li>
+    <li className="nav-item">
+      <Link className="nav-link px-2 text-body-secondary" to="project" smooth={true} duration={500}>
+        Project
+      </Link>
+    </li>
+    <li className="nav-item">
+      <Link className="nav-link px-2 text-body-secondary" to="contact" smooth={true} duration={500}>
+        Contact
+      </Link>
+    </li>
+  </ul>
+  <p className="text-center text-body-secondary"> Copyright© 2024 Mohit , All right reserved</p>
+</footer>
+
 </div>
         </div>
     )
