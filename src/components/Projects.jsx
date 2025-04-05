@@ -9,10 +9,10 @@ const Project = () => {
 
 >
    <div className="head-content" style={{ width :"100vw", marginTop :"-20px"}}>
-   <p style={{color :"gray" , fontWeight :"600", fontSize :"20px"}}>Browse my recent</p>
+   <p className="project-subheading">Browse my recent</p>
    <h1 style={{fontSize :"55px"}}>Projects</h1>
    </div>
-  <div class="col" style={{width :"350px", marginTop :"-120px"}}>
+  <div class="col">
     <div class="card h-100" style={ { borderRadius :"30px", border :"3px solid grey"}} >
       <img src={snap} class="card-img-top" alt="..."/>
       <div class="card-body">
@@ -24,7 +24,7 @@ const Project = () => {
       </div>
     </div>
   </div>
-  <div class="col"  style={{width :"350px",  marginTop :"-120px"}}>
+  <div class="col"  style={{width :"350px", }}>
     <div class="card h-100" style={ { borderRadius :"30px", border :"3px solid grey"}}>
       <img src= {telegram} class="card-img-top" alt="..."/>
       <div class="card-body">
@@ -41,7 +41,7 @@ const Project = () => {
       </div>
     </div>
   </div>
-  <div class="col" style={{width :"350px", marginTop :"-120px"}}>
+  <div class="col" style={{width :"350px", }}>
     <div class="card h-100" style={ { borderRadius :"30px", border :"3px solid grey"}}>
       <img src={fileManager} class="card-img-top" alt="..."/>
       <div class="card-body">

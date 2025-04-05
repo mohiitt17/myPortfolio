@@ -4,7 +4,7 @@ import "../App.css";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand" style={{ width: "100%", padding: 0, margin: 0 }}>
+    <nav className="navbar navbar-expand " style={{ width: "100%", padding: 0, margin: 0 }}>
       <div className="container-fluid" id='nav'>
         <a className="navbar-brand" href="#" id='nav-logo'>Mohit</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">

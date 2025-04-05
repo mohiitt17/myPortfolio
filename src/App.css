@@ -136,11 +136,14 @@
     flex-wrap: wrap;
 }
 
+  
+
 .col {
-    height: 430px;
-    border-radius: 30px;
-    margin-left: 50px;
-}
+    width: 90%;
+    max-width: 350px;
+    margin: 20px auto;
+  }
+  
 
 .col img {
     margin-top: 20px;
@@ -157,6 +160,13 @@
     margin-top: -10px;
     border-radius: 30px;
 }
+
+.project-subheading {
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
 
 .pj-btn {
     padding: 10px;
@@ -199,3 +209,239 @@
     font-weight: 500;
     font-size: 20px;
 }
+
+
+@media (max-width: 768px) {
+
+
+    #nav {
+        height: auto;
+        padding-top: 20px;
+        flex-direction: column;
+        margin-left: -20px;
+      }
+    
+      #nav-logo {
+        font-size: 35px;
+        text-align: center;
+      }
+    
+      .navbar-nav {
+        margin-left: 0;
+        gap: 20px;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .navbar-collapse {
+        width: 100%;
+      }
+    
+      .navbar-toggler {
+        margin: auto;
+      }
+    #landPage {
+      flex-direction: column;
+      padding: 20px;
+    margin-top: 12%;
+    }
+  
+    #landPage img {
+      height: 250px;
+      width: 250px;
+      position: static;
+      margin-bottom: 20px;
+    }
+  
+    #text-content {
+      width: 100%;
+      margin-top: 10px;
+      height: auto;
+      padding: 10px;
+    }
+  
+    #text-content button {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .icons {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    #aboutme {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #aboutme {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        gap: 20px;
+        height: auto;
+        
+      }
+    
+      #aboutme img {
+        float: none !important;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+      }
+    
+      .experience,
+      .education {
+        width: 85% !important;
+        margin-left: 6% !important;
+        margin-top: 0;
+      }
+    
+      #aboutme p.container-fluid {
+        width: 90% !important;
+        height: auto;
+        position: static !important;
+        top: 0;
+        left: 0;
+        font-size: 18px;
+        text-align: justify;
+        margin-top: 20px;
+      }
+
+
+      #exp {
+        flex-direction: column;
+        padding: 0px;
+        height: auto;
+        gap: 30px;
+        margin-left: -1em;
+      }
+    
+      .frontend,
+      .backend {
+        width: 90% !important;
+        height: auto;
+        margin-top: 0;
+        padding: 20px;
+      }
+    
+      .head-content {
+        margin-top: 20px !important;
+        height: auto;
+      }
+    
+      .lang {
+        margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+      }
+    
+      .lang div {
+        width: 100% !important;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+      }
+    
+      .lang p {
+        position: static !important;
+        float: none !important;
+        font-size: 1.5rem !important;
+        margin: 0.3rem;
+        margin-top: -50%;
+      }
+    
+      .lang svg {
+        margin-right: 1rem;
+        margin-top: -50%;
+
+      }
+      #project, #contact {
+        display: flex;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+      .project-subheading {
+        color: gray;
+        font-weight: 600;
+        font-size: 20px;
+      }
+      
+      .project-heading {
+        font-size: 55px;
+      }
+      
+      .col {
+        max-width: 250px;
+        margin: 20px auto;
+        height: 430px;
+        border-radius: 30px;
+      }
+      
+      .col img {
+        margin-top: 20px;
+        height: 250px;
+        width: 250px;
+        border: 2px solid gray;
+        border-radius: 20%;
+      }
+      
+      .col button {
+        width: 40%;
+        height: 50px;
+        border-radius: 30px;
+      }
+      
+      .pj-btn {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        height: 70px;
+      }
+      
+      .contact-links {
+        width: 90%;
+        margin-top: -100px;
+        border: 3px solid gray;
+        border-radius: 20px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+      }
+      
+      .email, .linkedin {
+        display: flex;
+        align-items: center;
+      }
+      
+      .email p, .linkedin p {
+        margin-left: 5px;
+      }
+      
+      #footer {
+        margin-top: 100px;
+        color: black;
+        font-weight: 500;
+        font-size: 20px;
+      }
+  }
+  
