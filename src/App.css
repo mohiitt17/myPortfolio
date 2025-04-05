@@ -322,7 +322,6 @@
         padding: 0px;
         height: auto;
         gap: 30px;
-        margin-left: -1em;
       }
     
       .frontend,
@@ -374,7 +373,6 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        margin-left: -10px;
     }
       .project-subheading {
         color: gray;
